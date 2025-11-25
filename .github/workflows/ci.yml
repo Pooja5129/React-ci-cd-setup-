@@ -17,3 +17,5 @@ jobs:
               run:  node --version
             - name: "clone the repository to runner machine"
               uses: actions/checkout@v4
+            - name: "install dependencies"
+              run: npm install
