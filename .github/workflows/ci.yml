@@ -6,7 +6,7 @@ on:
            - main
            - master
 jobs:
-    build and test:
+    build-and-test:
          runs-on: ubuntu-latest
          steps:
             - name: "setup of node js"
